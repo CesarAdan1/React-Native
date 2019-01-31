@@ -5,6 +5,7 @@ import { Text, View } from 'react-native';
 const styles = {
     marginTop: '10%',
     textAlign: 'center',
+    fontWeight: '200',
 }
 //Make a Component
 const Header = (props) => {
