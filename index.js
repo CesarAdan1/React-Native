@@ -22,6 +22,7 @@ const estilos = {
     )
   }
 }
+
 export default App;
 
 AppRegistry.registerComponent('albums', () => App);
