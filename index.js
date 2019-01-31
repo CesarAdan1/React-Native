@@ -13,7 +13,7 @@ const estilos = {
  class App extends Component {
   render() {
     return (
-      <View style={estilos}> 
+      <View style={{ flex: 1 }}> 
         <Header 
           header={'Albums'}
         />
