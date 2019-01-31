@@ -15,7 +15,7 @@ const estilos = {
     return (
       <View style={estilos}> 
         <Header 
-        header={'Albums'}
+          header={'Albums'}
         />
         <AlbumList />
       </View>
