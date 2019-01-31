@@ -3,7 +3,8 @@ import React from 'react';
 import { Text, View } from 'react-native';
 
 const styles = {
-    backgroundColor: "blue"
+    marginTop: '10%',
+    textAlign: 'center',
 }
 //Make a Component
 const Header = (props) => {
