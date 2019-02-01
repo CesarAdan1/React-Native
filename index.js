@@ -1,24 +1,18 @@
 import React, { Component } from 'react';
-import { Text, AppRegistry, View } from 'react-native';
+import { SafeAreaView, AppRegistry, View } from 'react-native';
 import Header from './src/Components/Header';
 import AlbumList from './src/Components/AlbumList';
 
 
-const estilos = {
-    backgroundColor:'white',
-    height: '100%',
-    width: '100%'
-}
-
  class App extends Component {
   render() {
     return (
-      <View style={{ flex: 1 }}> 
+      <SafeAreaView style={{ flex: 1 }}> 
         <Header 
           header={'Albums'}
         />
         <AlbumList />
-      </View>
+      </SafeAreaView>
     )
   }
 }

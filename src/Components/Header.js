@@ -4,7 +4,6 @@ import { Text, View } from 'react-native';
 
 const styles = {
     backgroundColor: 'white',
-    marginTop: '10%',
     textAlign: 'center',
     color: 'black',
     width: '100%',
